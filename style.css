@@ -11,3 +11,16 @@
     margin-right: 5.5rem;
 
 }
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* İçeriği dikey olarak merkezler */
+    min-height: 100vh; 
+    
+}
+
+
+
