@@ -39,7 +39,7 @@ function calculate() {
 
 }
 
-document.getElementById("celcius").addEventListener("keydown", function(event) {
+ document.getElementById("celcius").addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
         calculate();
     }
@@ -55,4 +55,40 @@ document.getElementById("celcius").addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
         calculate();
     }
-  });
+  }); 
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('fire-video');
+    const inputContainer = document.querySelector('.col-12 > .mt-5'); 
+
+    video.play(); 
+
+    setTimeout(function() {
+        video.pause(); 
+        inputContainer.style.display = 'block'; // Giriş kapsayıcısını göster
+    }, 9000); // 9 saniye gecikme
+});
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+ 
+
+  
+  
+
