@@ -38,3 +38,21 @@ function calculate() {
 
 
 }
+
+document.getElementById("celcius").addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        calculate();
+    }
+  });
+  
+  document.getElementById("fahrenheit").addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        calculate();
+    }
+  });
+
+  document.getElementById("kelvin").addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        calculate();
+    }
+  });
