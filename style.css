@@ -13,14 +13,16 @@
 }
 
 body{
-    background-color: black;
+    background-color: black; 
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* İçeriği dikey olarak merkezler */
+    justify-content: center; 
     min-height: 100vh; 
     
 }
+
+
 
 
 
